@@ -1,0 +1,31 @@
+<graph>
+  <V id = "0"  type = "NOP" d = "1"/>
+  <V id = "1"  type = "M" d = "1"/>
+  <V id = "2"  type = "M" d = "1"/>
+  <V id = "3"  type = "M" d = "1"/>
+  <V id = "4"  type = "ALU" d = "1"/>
+  <V id = "5"  type = "ALU" d = "1"/>
+  <V id = "6"  type = "M" d = "1"/>
+  <V id = "7"  type = "M" d = "1"/>
+  <V id = "8"  type = "Mlti" d = "1"/>
+  <V id = "9"  type = "ALU" d = "1"/>
+  <V id = "10" type = "ALU" d = "1"/>
+  <V id = "11" type = "ALU" d = "1"/>
+  <V id = "n"  type = "NOP" d = "1"/>
+  <E from = "0" to = "1"/>
+  <E from = "0" to = "2"/>
+  <E from = "0" to = "6"/>
+  <E from = "0" to = "8"/>
+  <E from = "0" to = "10"/>
+  <E from ="1" to = "3"/>
+  <E from ="2" to = "3"/>
+  <E from ="3" to = "4"/>
+  <E from ="4" to = "5"/>
+  <E from ="5" to = "n"/>
+  <E from ="6" to = "7"/>
+  <E from ="7" to = "5"/>
+  <E from ="8" to = "9"/>
+  <E from ="9" to = "n"/>
+  <E from ="10" to = "11"/>
+  <E from ="11" to = "n"/>
+</graph>
