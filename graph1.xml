@@ -7,7 +7,7 @@
   <V id = "5"  type = "ALU" d = "1"/>
   <V id = "6"  type = "M" d = "1"/>
   <V id = "7"  type = "M" d = "1"/>
-  <V id = "8"  type = "Mlti" d = "1"/>
+  <V id = "8"  type = "M" d = "1"/>
   <V id = "9"  type = "ALU" d = "1"/>
   <V id = "10" type = "ALU" d = "1"/>
   <V id = "11" type = "ALU" d = "1"/>
@@ -21,11 +21,11 @@
   <E prev ="2" next = "3"/>
   <E prev ="3" next = "4"/>
   <E prev ="4" next = "5"/>
-  <E prev ="5" next = "999"/>
+  <E prev ="5" next = "n"/>
   <E prev ="6" next = "7"/>
   <E prev ="7" next = "5"/>
   <E prev ="8" next = "9"/>
-  <E prev ="9" next = "999"/>
+  <E prev ="9" next = "n"/>
   <E prev ="10" next = "11"/>
-  <E prev ="11" next = "999"/>
+  <E prev ="11" next = "n"/>
 </graph>
