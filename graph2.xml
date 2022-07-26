@@ -14,8 +14,8 @@
   <V id = "n"  type = "NOP" d = "1"/>
   <E prev = "0" next = "1"/>
   <E prev = "0" next = "2"/>
-  <E prev = "0" next = "6"/>
-  <E prev = "0" next = "8"/>
+  <E prev = "3" next = "6"/>
+  <E prev = "3" next = "8"/>
   <E prev = "0" next = "10"/>
   <E prev ="1" next = "3"/>
   <E prev ="2" next = "3"/>
